@@ -47,7 +47,156 @@ header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0
    font-size: calc(28px + (32 - 28) * ((100vw - 320px)/ (1600 - 320)));
    color: var(--gray-700);
 }   
-  
+
+#hero-5 .section-selector-5 { background-color: var(--black-000) }
+#hero-5 .section-selector-5 h2 { color: var(--green-400) }
+#hero-5 .section-selector-5 .container-btn a.btn:nth-child(2):link,
+#hero-5 .section-selector-5 .container-btn a.btn:nth-child(2):visited { background-color: var(--green-400) }
+
+#hero-5 .section-selector-5 .container-btn a.btn:nth-child(2):link,
+#hero-5 .section-selector-5 .container-btn a.btn:nth-child(2):visited { border-color: var(--green-400) }
+
+#hero-5 .section-selector-5 .container-btn a.btn:nth-child(1):focus,
+#hero-5 .section-selector-5 .container-btn a.btn:nth-child(1):hover,
+#hero-5 .section-selector-5 .container-btn a.btn:nth-child(1):active { color: var(--green-400) }
+
+#hero-5 .section-selector-5 .container-btn a.btn:nth-child(1):focus,
+#hero-5 .section-selector-5 .container-btn a.btn:nth-child(1):hover,
+#hero-5 .section-selector-5 .container-btn a.btn:nth-child(1):active { background-color: var(--slate-700) }
+
+#hero-5 .section-selector-5 {
+    margin-top: 80px;
+}
+#hero-5 .desktop-min-height-100vh {
+    min-height: 100vh;
+}
+
+#hero-5 .upper-label {
+   text-decoration: underline;
+   text-decoration-thickness: 1.5px;
+   text-underline-offset: 7px;
+   text-decoration-color: #64f4ac;
+   text-decoration-style: double;
+   color: white;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-family: "Zilla Slab", serif;
+   margin-bottom: 20px;
+   letter-spacing: 5px;
+}
+
+#hero-5 .section-selector-5 h2 {
+   font-weight: 400;
+   line-height: 1.2;
+   color: #64f4ac;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-family: "Barlow Condensed", serif;
+}
+
+#hero-5 .section-selector-5 p {
+    font-family: "Barlow Condensed", serif;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    #hero-5 .section-selector-5 h2 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hero-5 .section-selector-5 h2 {
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #hero-5 .section-selector-5 .upper-label {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hero-5 .section-selector-5 .upper-label {
+        font-size: 12px;
+    }
+}
+
+#hero-6 {
+    margin-top: 80px;
+}
+
+#hero-6 .section-selector-1 { background-color: var(--rose-200) }
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):link,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):visited { background-color: var(--pink-700) }
+
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):link,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):visited { border-color: var(--pink-800) }
+
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):focus,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):hover,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):active { background-color: var(--pink-900) }
+
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):focus,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):hover,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):active .container-btn { border-color: var(--pink-800) }
+
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):focus,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):hover,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):active .container-btn { border-color: var(--white-000) }
+
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):focus,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):hover,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):active .container-btn { border-color: var(--black-000) }
+
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):focus,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):hover,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(1):active .container-btn { border-color: var(--pink-900) }
+
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(2):focus,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(2):hover,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(2):active { background-color: var(--pink-700) }
+
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(2):focus,
+#hero-6 .section-selector-1 .container-btn a.btn:nth-child(2):hover,
+#hero-6 .section-selector-1 a.btn:nth-child(2):active .container-btn { border-color: var(--pink-800) }
+
+#hero-6 .section-selector-1 .badge { background-color: var(--purple-700) }
+
+
+#hero-6 h2 {
+   font-family: 'Playfair Display', serif;
+   font-weight: 500;
+   line-height: 1.2;
+   color: var(--trend-900);
+   letter-spacing: -6px;
+   font-size: calc(60px + (98 - 60) * ((100vw - 320px) / (1600 - 320)));
+}
+
+#hero-6 p {
+   font-size: calc(22px + (32 - 22) * ((100vw - 320px)/ (1600 - 320)));
+   font-family: 'Playfair Display', serif;
+   line-height: 1.5;
+   letter-spacing: -1px;
+   color: var(--trend-800);
+   font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
