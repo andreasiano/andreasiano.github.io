@@ -1,0 +1,20 @@
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--slate-600) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--gray-800) }
+
+footer.theme-dark {
+    background-color: var(--gray-800) 
+}
+header h1 {
+    font-size: calc(44px + (120 - 44) * (100vw - 320px) / (1920 - 320));
+}
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--red-600) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--red-300) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--red-700) }
+header.theme-light { background-color: var(--red-200) }
