@@ -71,9 +71,6 @@ header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0
 #hero-5 .section-selector-5 {
     margin-top: 80px;
 }
-#hero-5 .desktop-min-height-100vh {
-    min-height: 100vh;
-}
 
 #hero-5 .upper-label {
    text-decoration: underline;
