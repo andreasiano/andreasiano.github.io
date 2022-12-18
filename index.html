@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,11 +33,8 @@
     </script> 
 </head>
 <body>
-    <nav class="theme-light">
+    <nav class="theme-dark menu-sticky">
         <div class="container-menu menu-desktop">
-            <a href="#" class="brand">
-                <img src="assets/img/website-logo.png" alt="Sample website logo">
-            </a>
             <div class="container-menu-links">
                 <div class="nav-toggle">
                     <div class="bar-1"></div>
@@ -45,22 +43,26 @@
                 </div>
                 <ul class="links-wrapper links-bold">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a class="btn btn-solid btn-pill" id="btn-cta" href="#"><span>Contact</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-	<!-- header starts here -->
-    <header class="theme-light text-center-desktop text-center-mobile">
+    <header class="theme-dark hero-bg text-center-desktop text-center-mobile desktop-min-height-100vh header-after-menu-sticky">
         <div class="container-text">
-            <h1>Web Designer & Developer</h1>
-            <h2>I am an innovative front-end developer who loves to build human-friendly interfaces.</h2>
+            <h1 class="text-shadow">Web Designer & Developer</h1>
+            <h2 class="text-shadow">I am an innovative front-end developer who loves to build human-friendly interfaces.</h2>
         </div>
         <div class="container-btn">
-            <a href="#" class="btn btn-solid btn-pill btn-large"><i class="far fa-folder-open"></i></i><span>Hire me</span></a>
-            <a href="#" class="btn btn-outline btn-large btn-pill"><i class="fas fa-arrow-right"></i><span>See my Work</span></a>
+            <a href="#" class="btn btn-solid btn-large btn-pill"><i class="fas fa-shopping-cart"></i><span>Hire me</span></a>
+            <a href="#" class="btn btn-large btn-pill btn-outline"><i class="fas fa-arrow-right"></i><span>Learn more</span></a>
         </div>
+        <div class="container-media">
+            <img src="assets/img/raimond-klavins-Ek-HeyrgkqM-unsplash.jpg" alt="Placeholder image">
+        </div>
+        <div class="container-overlay"></div>
     </header>
 	<main> 
 	<section class="theme-light section-selector-1">
@@ -73,12 +75,12 @@
 			</div>
 			<div class="col-3">
 				<figure>
-					<img src="assets/img/mailchimp-YTZOyio3Udk-unsplash.jpg" alt="Placeholder image">
+					<img src="assets/img/aral-tasher-vWsubsaym3o-unsplash.jpg" alt="Placeholder image">
 				</figure>
 			</div>
 			<div class="col-3">
 				<figure>
-					<img src="assets/img/photo1.jpg" alt="Placeholder image">
+					<img src="assets/img/charlesdeluvio-DgoyKNgPiFQ-unsplash.jpg" alt="Placeholder image">
 				</figure>
 			</div>
 		</div>
@@ -109,6 +111,11 @@
 		</div>
     </section>
     <section class="theme-light cols-2-half section-selector-3">
+        <div class="col-2 col-visual">
+                <figure>
+                    <img src="assets/img/vecteezy_illustration-of-a-freelancer-working-from-home_8097352.jpg" alt="Placeholder image">
+                </figure>  
+        </div>
         <div class="col-2 col-text">
             <h2>If you need any help</h2>
             <p>I can design and code your digital product by using several tools.
@@ -116,18 +123,44 @@
             </p>
             <p>Also i can help you design beautiful and responsive websites thanks to my coding skills. I can hardcode your website or if you prefer i can use WordPress as a CMS.</p>
         </div>
-        <div class="col-2 col-visual">
-				<figure>
-					<img src="assets/img/vecteezy_illustration-of-a-freelancer-working-from-home_8097352.jpg" alt="Placeholder image">
-				</figure>  
-        </div>
     </section>
-
-
-	<!-- section ends here -->
-
-
+	<!-- section starts here -->
+	<section class="theme-light section-selector-4">
+		<div class="col-1 text-center col-1-width-800px img-circle">
+			<h2>Recent projects</h2>
+			<h3>Below you can see some examples of my recent work. Check out my complete <a class="portfolio_link" href="#">portfolio</a>. Have a project you would like to discuss? Let's make something great together!</h3>
+		</div>
+		<!-- Begin three-column flexbox grid -->
+		<div class="flex-cols-3 cols-padding cols-shadows cols-corners-soft cols-background cols-gap-3 text-center">
+			<div class="col-3 img-circle">
+				<figure class="photos-brightness">
+					<a href="#"><img src="assets/img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" alt="Placeholder image"></a>
+				</figure>
+				<h3>Web Development</h3>
+				<p>Our friendly baristas are waiting to pour your favourite beverage. We use only hand roasted coffee and expertly selected tea leaves.</p>
+				<a href="#" class="btn btn-solid btn-soft"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
+			</div>
+			<div class="col-3 img-circle">
+				<figure class="photos-brightness">
+					<a href="#"><img src="assets/img/amelie-mourichon-sv8oOQaUb-o-unsplash.jpg" alt="Placeholder image"></a>
+				</figure>
+				<h3>UI-UX and Web Design</h3>
+				<p>Level up your look with our ever-changing selection of on-trend brands. We ship to almost everywhere quickly and reliably.</p>
+				<a href="#" class="btn btn-solid btn-soft"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
+			</div>
+			<div class="col-3 img-circle">
+				<figure class="photos-brightness">
+					<a href="#"><img src="assets/img/louise-viallesoubranne-5EhN4wbfvBc-unsplash.jpg" alt="Placeholder image"></a>
+				</figure>
+				<h3>WordPress Customization</h3>
+				<p>Supercharge your web design career with the <i>Lunevedy: JavaScript for Beginners</i> training course. All important topics covered.</p>
+				<a href="#" class="btn btn-solid btn-soft"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
+			</div>
+		</div>
+		<!-- End three-column flexbox grid -->
 	</section>
+	<!-- section ends here -->
+	<!-- section ends here -->
     </main>
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 </body>
