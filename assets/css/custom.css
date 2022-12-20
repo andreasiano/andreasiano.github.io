@@ -1,31 +1,14 @@
 nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--slate-200) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--amber-100) }
-nav.theme-dark ul.links-wrapper li a:link,
-nav.theme-dark ul.links-wrapper li a:visited { color: var(--brown-600) }
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--amber-100) }
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:link,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited { color: var(--brown-800) }
 nav.theme-dark a#btn-cta:link,
-nav.theme-dark a#btn-cta:visited { background-color: var(--amber-300) }
+nav.theme-dark a#btn-cta:visited { background-color: var(--brown-100) }
 nav.theme-dark a#btn-cta:link,
-nav.theme-dark a#btn-cta:visited { border-color: var(--amber-300) }
-nav.theme-dark a#btn-cta:link,
-nav.theme-dark a#btn-cta:visited { color: var(--brown-600) }
-nav.theme-dark a#btn-cta:focus,
-nav.theme-dark a#btn-cta:hover,
-nav.theme-dark a#btn-cta:active { background-color: var(--amber-500) }
-nav.theme-dark a#btn-cta:focus,
-nav.theme-dark a#btn-cta:hover,
-nav.theme-dark a#btn-cta:active { border-color: var(--amber-500) }
-nav.theme-dark .nav-toggle .bar-1,
-nav.theme-dark .nav-toggle .bar-2,
-nav.theme-dark .nav-toggle .bar-3 { background-color: var(--gray-600) }
-nav.theme-dark .nav-toggle .bar-1,
-nav.theme-dark .nav-toggle .bar-2,
-nav.theme-dark .nav-toggle .bar-3 { background-color: var(--gray-600) }
-nav.theme-dark .nav-toggle .bar-1,
-nav.theme-dark .nav-toggle .bar-2,
-nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
-nav.theme-dark .nav-toggle { background-color: var(--brown-700) }
+nav.theme-dark a#btn-cta:visited { border-color: var(--brown-100) }
+
 header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)); } 
 header.theme-dark .container-btn a.btn:nth-child(1):link,
 header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--amber-400) }
