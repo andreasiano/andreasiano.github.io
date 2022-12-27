@@ -7,13 +7,17 @@
     <title>Sample Web Page Title</title>
     <meta name="description" content="Sample web page description goes here.">
 
-	<!-- Preload large image -->
+	<link rel="preload" as="image" href="../assets/img/mathyas-kurmann-fb7yNPbT0l8-unsplash.jpg">
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/css/lunevedy.min.css" />
     <link rel="stylesheet" href="../assets/css/custom.css" />
 
-	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,40 +27,36 @@
 
 </head>
 <body>
-
     <!-- menu and 'hero block' header -->
-    <nav class="theme-light">
+    <nav class="theme-dark menu-sticky">
         <div class="container-menu menu-desktop">
-            <a href="#" class="brand">
-                <img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo">
+            <a href="../index.html" class="brand">
+                <img src="../assets/img/logo.png" alt="Sample website logo">
             </a>
-
             <div class="container-menu-links">
-
-                <div class="nav-toggle">
+                <div class="nav-toggle" aria-label="menu" aria-expanded="false">
                     <div class="bar-1"></div>
                     <div class="bar-2"></div>
                     <div class="bar-3"></div>
                 </div>
-
-                <ul class="links-wrapper">
+                <ul class="links-wrapper links-bold">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../portfolio/index.html">Portfolio</a></li>
-                    <li><a class="btn btn-solid" id="btn-cta" href="#"><span>Contact</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a class="btn btn-solid btn-shadow btn-pill" id="btn-cta" href="../contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
                 </ul>
             </div>
-
         </div>
     </nav>
-
 	<!-- header starts here -->
-    <header class="theme-light text-center-mobile">
-
-        <div class="container-text">
-            <h1>Contact</h1>
-            <h2>Use the form below to let me know a little more about your objectives and i'll get back to you.
-            </h2>
+      <header class="theme-dark hero-bg text-center-mobile desktop-min-height-80vh header-after-menu-sticky">
+        <div class="container-text w-50">
+            <h1 class="text-shadow">Contact</h1>
+            <h2 class="text-shadow">Use the form below to let me know a little more about your objectives and i'll get back to you.</h2>
         </div>
+        <div class="container-media">
+            <img src="../assets/img/mathyas-kurmann-fb7yNPbT0l8-unsplash.jpg" alt="Placeholder image">
+        </div>
+        <div class="container-overlay"></div>
     </header>
 	<!-- header ends here -->
     <!-- main content with sections -->
@@ -67,15 +67,14 @@
         <section></section>
         <section></section>
         <section></section>
-
     </main>
-    	<footer class="theme-dark text-center-desktop text-center-mobile">
-		<h2>Mary Smith</h2>
-		<h3>Excellence in Web Design</h3>
+    <footer class="text-center-desktop text-center-mobile">
+		<h2>Andrea S. Pensieri, Web Developer & Designer</h2>
+		<h3>Excellence in digital creation.</h3>
 		<ul class="footer-links">
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="../portfolio/index.html">Portfolio</a></li>
+			<li><a href="">Contact</a></li>
 		</ul>
 		<ul class="footer-icons">
 			<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
@@ -84,7 +83,8 @@
 			<li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
 			<li><a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
 		</ul>
-		<p class="privacy"><a href="#">Privacy &amp; Legal</a></p>
+		<p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
+	</footer>
 	</footer>
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>

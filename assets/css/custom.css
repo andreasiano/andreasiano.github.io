@@ -1,32 +1,17 @@
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--brown-600) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--brown-600) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
 nav.theme-dark.menu-sticky.menu-on-scroll,
-nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--amber-100) }
-nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:link,
-nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited { color: var(--brown-600) }
-nav.theme-dark a#btn-cta:focus,
-nav.theme-dark a#btn-cta:hover,
-nav.theme-dark a#btn-cta:active { border-color: var(--brown-200) }
-nav.theme-dark .nav-toggle { background-color: var(--brown-300) }
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--green-900) }
 nav.theme-dark a#btn-cta:link,
-nav.theme-dark a#btn-cta:visited { background-color: var(--orange-100) }
+nav.theme-dark a#btn-cta:visited { border-color: var(--white-000) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { background-color: var(--orange-700) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { color: var(--white-000) }
 nav.theme-dark a#btn-cta:focus,
 nav.theme-dark a#btn-cta:hover,
-nav.theme-dark a#btn-cta:active { background-color: var(--brown-200) }
-nav.theme-dark a#btn-cta:focus,
-nav.theme-dark a#btn-cta:hover,
-nav.theme-dark a#btn-cta:active { color: var(--gray-900) }
-nav.theme-dark ul.links-wrapper li a:link,
-nav.theme-dark ul.links-wrapper li a:visited { color: var(--white-000) }
-nav.theme-dark ul.links-wrapper li a:focus,
-nav.theme-dark ul.links-wrapper li a:hover,
-nav.theme-dark ul.links-wrapper li a:active { color: var(--red-100) }
+nav.theme-dark a#btn-cta:active { background-color: var(--orange-900) }
+
 header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)); } 
 header.theme-dark .container-btn a.btn:nth-child(1):link,
 header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--amber-400) }
@@ -57,7 +42,7 @@ header.theme-dark .container-btn a.btn:nth-child(2):focus,
 header.theme-dark .container-btn a.btn:nth-child(2):hover,
 header.theme-dark .container-btn a.btn:nth-child(2):active { color: var(--amber-400) }
 
-footer { background-color: var(--brown-300) }
+footer { background-color: var(--brown-900) }
 footer h2 { color: var(--orange-300) }
 footer h3 { color: var(--orange-200) }
 footer ul.footer-links li a:link, 
@@ -68,15 +53,15 @@ footer p.privacy a:visited { color: var(--gray-100); text-decoration-color: var(
 
 footer ul.footer-links li a:focus, 
 footer ul.footer-links li a:hover, 
-footer ul.footer-links li a:active { color: var(--brown-700); text-decoration-color: var(--brown-700) }
+footer ul.footer-links li a:active { color: var(--orange-300); text-decoration-color: var(--white-000) }
 
 footer p.privacy a:focus, 
 footer p.privacy a:hover, 
-footer p.privacy a:active { color: var(--brown-700); text-decoration-color: var(--brown-700) }
+footer p.privacy a:active { color: var(--orange-300); text-decoration-color: var(--white-000) }
 
 footer ul.footer-icons li a:focus i, 
 footer ul.footer-icons li a:hover i, 
-footer ul.footer-icons li a:active i { color: var(--brown-500)}
+footer ul.footer-icons li a:active i { color: var(--orange-300)}
 
 footer h2, h3 {
     font-family: 'Kaushan Script', cursive;
@@ -195,6 +180,14 @@ footer h2, h3 {
     color: orange;
 }
 
+
+
+
+
+
+
+    
+   
 
 
 
