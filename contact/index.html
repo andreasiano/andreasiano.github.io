@@ -9,7 +9,6 @@
 
 	<link rel="preload" as="image" href="../assets/img/mathyas-kurmann-fb7yNPbT0l8-unsplash.jpg">
 
-	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/css/lunevedy.min.css" />
     <link rel="stylesheet" href="../assets/css/custom.css" />
 
@@ -19,19 +18,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Line Awesome thin icons. Delete if not using. -->
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VNC80VDJ71"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VNC80VDJ71');
+    </script> 
 </head>
 <body>
-    <!-- menu and 'hero block' header -->
     <nav class="theme-dark menu-sticky">
         <div class="container-menu menu-desktop">
             <a href="../index.html" class="brand">
-                <img src="../assets/img/logo.png" alt="Sample website logo">
+                <img src="../assets/img/logo2.png" alt="Sample website logo">
             </a>
             <div class="container-menu-links">
                 <div class="nav-toggle" aria-label="menu" aria-expanded="false">
@@ -47,8 +47,7 @@
             </div>
         </div>
     </nav>
-	<!-- header starts here -->
-      <header class="theme-dark hero-bg text-center-mobile desktop-min-height-80vh header-after-menu-sticky">
+      <header class="theme-dark hero-bg text-left-mobile desktop-min-height-80vh header-after-menu-sticky">
         <div class="container-text w-50">
             <h1 class="text-shadow">Contact</h1>
             <h2 class="text-shadow">Use the form below to let me know a little more about your objectives and i'll get back to you.</h2>
@@ -58,15 +57,34 @@
         </div>
         <div class="container-overlay"></div>
     </header>
-	<!-- header ends here -->
-    <!-- main content with sections -->
     <main>
-
-        <!-- replace these empty sections with your own or delete them. -->
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+           <section class="container-contact-form w-800px">
+                <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post" action="https://formspree.io/f/xaykznag">
+                    <div class="contact-form-upper">
+                        <p>Let me know a little about your objectives and i'll get back to you!</p>
+                    </div>
+                    <div class="flex-row">
+                        <div class="item-name">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" name="name" id="full-name" placeholder="Your First and Last Name." required="">
+                        </div>
+                        <div class="item-email">
+                            <label for="email-address">Email</label>
+                            <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address." required="">
+                        </div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="item-textarea">
+                            <label for="message">Message</label>
+                            <textarea rows="5" name="message" id="message" placeholder="Your Message." required="" style="width: 391px; height: 135px;"></textarea>
+                        </div>
+                        <div class="item-btn">
+                            <button id="btn-submit" type="submit" class="btn-rounded"><span>Send</span><i class="fas fa-arrow-circle-right"></i></button>
+                        </div>
+                    </div>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </form>
+        </section>
     </main>
     <footer class="text-center-desktop text-center-mobile">
 		<h2>Andrea S. Pensieri, Web Developer & Designer</h2>

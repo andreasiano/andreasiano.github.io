@@ -1,7 +1,7 @@
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
 nav.theme-dark.menu-sticky.menu-on-scroll,
-nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--green-900) }
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--gray-700) }
 nav.theme-dark a#btn-cta:link,
 nav.theme-dark a#btn-cta:visited { border-color: var(--white-000) }
 nav.theme-dark a#btn-cta:link,
@@ -179,6 +179,8 @@ footer h2, h3 {
     font-weight: bolder;
     color: orange;
 }
+
+    
 
 
 
