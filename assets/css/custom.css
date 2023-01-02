@@ -61,7 +61,7 @@ footer p.privacy a:active { color: var(--orange-300); text-decoration-color: var
 
 footer ul.footer-icons li a:focus i, 
 footer ul.footer-icons li a:hover i, 
-footer ul.footer-icons li a:active i { color: var(--orange-300)}
+footer ul.footer-icons li a:active i { color: var(--trend-700)}
 
 footer h2, h3 {
     font-family: 'Kaushan Script', cursive;
@@ -179,6 +179,11 @@ footer h2, h3 {
     font-weight: bolder;
     color: orange;
 }
+#contact-form #btn-submit { background-color: var(--gray-100) }
+#contact-form #btn-submit { color: var(--black-000) }
+#contact-form #btn-submit:focus { background-color: var(--trend-800) }
+#contact-form #btn-submit:hover { background-color: var(--trend-800) }
+
 
     
 
