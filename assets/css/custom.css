@@ -14,13 +14,13 @@ nav.theme-dark a#btn-cta:active { background-color: var(--trend-800) }
 
 header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)); } 
 header.theme-dark .container-btn a.btn:nth-child(1):link,
-header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--trend-700) }
+header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--teal-700) }
 
 header.theme-dark .container-btn a.btn:nth-child(1):link,
 header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
 
 header.theme-dark .container-btn a.btn:nth-child(1):link,
-header.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: var(--trend-700) }
+header.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: var(--teal-700) }
 
 header.theme-dark .container-btn a.btn:nth-child(1):focus,
 header.theme-dark .container-btn a.btn:nth-child(1):hover,
@@ -90,7 +90,7 @@ footer h2, h3 {
 .container-text > h1 {
     font-size: calc(60px + (120 - 60) * ((100vw - 320px)/ (1600 - 320)));
     font-family: 'Kaushan Script', cursive;
-    color: var(--red-300);
+    color: var(--blue-100);
 }
 @media screen and (min-width: 768px) {
     .container-text > h1 {
@@ -140,26 +140,26 @@ footer h2, h3 {
 }
 .section-selector-4 { background-color: var(--trend-050) }
 .section-selector-4 .col-1 h2 { color: var(--amber-700) }
-.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] h3 { color: var(--yellow-700); }
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] h3 { color: var(--yellow-500); }
 .section-selector-4 div[class^='flex-cols-'] div[class^='col-'] { background-color: var(--slate-050) }
 .section-selector-4 a.btn:link,
-.section-selector-4 a.btn:visited { background-color: var(--brown-600) }
+.section-selector-4 a.btn:visited { background-color: var(--teal-800) }
 
 .section-selector-4 a.btn:link,
-.section-selector-4 a.btn:visited { border-color: var(--brown-600) }
+.section-selector-4 a.btn:visited { border-color: var(--teal-800) }
 
 .section-selector-4 a.btn:focus,
 .section-selector-4 a.btn:hover,
-.section-selector-4 a.btn:active { background-color: var(--red-800) }
+.section-selector-4 a.btn:active { background-color: var(--trend-900) }
 
 .section-selector-4 a.btn:focus,
 .section-selector-4 a.btn:hover,
-.section-selector-4 a.btn:active { border-color: var(--red-800) }
+.section-selector-4 a.btn:active { border-color: var(--trend-900) }
 
 .section-selector-4 .col-1 h2 {
     font-family: 'Kaushan Script', cursive;
     font-size: calc(40px + (90 - 40) * ((100vw - 320px)/ (1600 - 320)));
-    color: var(--red-800);
+    color: var(--trend-900);
 }
 .section-selector-4 .col-1 h3 {
     font-family: 'Nunito Sans', sans-serif;
@@ -180,7 +180,7 @@ footer h2, h3 {
 }
 .section-selector-4 .col-1 .portfolio_link {
     font-weight: bolder;
-    color: var(--red-800);
+    color: var(--trend-900);
 }
 #contact-form #btn-submit { background-color: var(--gray-100) }
 #contact-form #btn-submit { color: var(--black-000) }
