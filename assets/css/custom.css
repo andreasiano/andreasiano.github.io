@@ -90,7 +90,7 @@ footer h2, h3 {
 .container-text > h1 {
     font-size: calc(60px + (120 - 60) * ((100vw - 320px)/ (1600 - 320)));
     font-family: 'Kaushan Script', cursive;
-    color: var(--blue-100);
+    color: var(--yellow-500);
 }
 @media screen and (min-width: 768px) {
     .container-text > h1 {
